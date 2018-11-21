@@ -1,5 +1,9 @@
 require 'pry'
 
+def reload!
+  load ./lib/student.rb
+end
+
 class Student
   attr_accessor :id, :name, :grade
 
