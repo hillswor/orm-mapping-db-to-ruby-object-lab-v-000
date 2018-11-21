@@ -1,7 +1,7 @@
 require 'pry'
 
 def reload!
-  load ./lib/student.rb
+  load "./lib/student.rb"
 end
 
 class Student
